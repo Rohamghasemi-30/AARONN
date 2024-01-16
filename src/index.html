@@ -16,13 +16,11 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-maincolor-200">
+  <body class="bg-backgroundColor-maincolor-200 font-Rubik">
     <main>
       <header>
-        <nav>
-          <ul class="flex h-[110px] font-Rubik">
-            <div class="logo flex items-center w-[280px] justify-center">
-              <svg
+        <nav class="flex justify-between items-center  w-full pt-[33px] px-[144px] ">
+          <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="125"
                 height="28"
@@ -66,24 +64,17 @@
                   fill="white"
                 />
               </svg>
-            </div>
-            <div
-              class="flex justify-between items-center w-[470px] relative left-[500px]"
-            >
-              <li><a class="text-1100" href="#">Home</a></li>
-              <li><a class="text-1100" href="#">About me</a></li>
-              <li><a class="text-1100" href="#">My works</a></li>
-              <button
-                class="w-[138px] h-[47px] border border-solid border-white rounded-[30px] bg-maincolor-600 text-1100"
-              >
-                Contact
-              </button>
-            </div>
+          <ul class="flex text-textColor-grays-500 w-5/12 justify-between h-[50px] items-center">
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">ABOUT ME</a></li>
+              <li><a href="#">MY WORKS</a></li>
+              <li><a  class="text-white rounded-rounded px-[36px] py-[12px] border border-solid border-white" href="#">CONTACT</a></li>
           </ul>
         </nav>
-        <div class="title flex justify-center h-[330px] items-end">
-          <svg
-            class="absolute right-[25px] top-[0px]"
+         
+          <h1 class="font-syne text-white  h-[350px] flex justify-center items-end text-[72px]  text-center relative font-bold">
+            <svg
+            class="absolute right-[25px] top-[-80px]"
             xmlns="http://www.w3.org/2000/svg"
             width="917"
             height="651"
@@ -121,15 +112,11 @@
               </filter>
             </defs>
           </svg>
-          <h1
-            class="font-syne text-1100 text-[72px] w-[700px] text-center relative"
-          >
-            Adaptive Logo Design for Your Brand
-          </h1>
-        </div><br><br><br>
-        <div class="btn flex justify-center items-center ">
-          <button class="w-[242px] h-[65px] bg-maincolor-100 rounded-btn">
-            <a class="text-1100 flex justify-center items-center gap-5" href="#"
+            Adaptive Logo Design
+            <br> for Your Brand
+          </h1><br><br>
+        <div class="btn flex justify-center items-center "> 
+            <a class=" flex justify-center items-center gap-5 w-[242px] h-[65px] bg-maincolor-100 rounded-rounded text-white bg-backgroundColor-maincolor-100 font-semibold" href="#"
               >Explore works
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -153,9 +140,60 @@
                   stroke-linejoin="round"
                 /></svg
             ></a>
-          </button>
         </div>
       </header>
+      <section class="px-[144px] flex w-full pt-[200px] ">
+        <div class="box-type  w-6/12">
+          <h2 class="font-syne  text-white w-[450px] text-justify h-[250px] flex justify-start items-end text-[56px] font-bold relative">
+            <svg
+            class="absolute right-[25px] top-[-150px]"
+            xmlns="http://www.w3.org/2000/svg"
+            width="917"
+            height="651"
+            viewBox="0 0 917 651"
+            fill="none"
+          >
+            <g filter="url(#filter0_f_101_462)">
+              <path
+                d="M485.187 449.805C580.282 443.548 642.347 408.446 702.715 326.776C825.011 161.329 110.485 108.772 209.995 290.534C272.738 405.139 363.72 457.796 485.187 449.805Z"
+                fill="white"
+                fill-opacity="0.18"
+              />
+            </g>
+            <defs>
+              <filter
+                id="filter0_f_101_462"
+                x="0.454948"
+                y="-23.6465"
+                width="916.391"
+                height="674.24"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="100"
+                  result="effect1_foregroundBlur_101_462"
+                />
+              </filter>
+            </defs>
+          </svg>
+          Let’s get know
+          <br> about me closer
+          </h2>
+          <p class="text-textColor-grays-1100 w-[500px]">Aaronn is a New York-based visual designer focusing on branding and visual identity. Her portfolio showcases her wide range of work, spanning books, posters and web design.</p><br><br><br><br>
+          <a class="rounded-rounded w-16 bg-backgroundColor-maincolor-100 px-[50px] py-[20px] font-semibold text-white" href="#">Discover More About Me</a>
+        </div>
+        <div class="box-image  flex justify-end w-6/12">
+          <img  src="/image/Rectangle 361 (1).jpg" alt="">
+        </div>
+      </section>
     </main>
   </body>
 </html>
