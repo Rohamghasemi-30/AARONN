@@ -15,6 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;1,300&family=Syne&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body class="bg-backgroundColor-maincolor-200 font-Rubik">
     <main>
@@ -72,7 +73,7 @@
           </ul>
         </nav>
          
-          <h1 class="font-syne text-white  h-[350px] flex justify-center items-end text-[72px]  text-center relative font-bold">
+          <h1 class="font-syne text-white  h-[350px] flex justify-center items-end text-[72px]  text-center relative font-bold" data-aos="zoom-in" >
             <svg
             class="absolute right-[25px] top-[-80px]"
             xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +116,7 @@
             Adaptive Logo Design
             <br> for Your Brand
           </h1><br><br>
-        <div class="btn flex justify-center items-center "> 
+        <div class="btn flex justify-center items-center " data-aos="zoom-in" > 
             <a class=" flex justify-center items-center gap-5 w-[242px] h-[65px] bg-maincolor-100 rounded-rounded text-white bg-backgroundColor-maincolor-100 font-semibold" href="#"
               >Explore works
               <svg
@@ -143,7 +144,7 @@
         </div>
       </header>
       <section class="px-[144px] flex w-full pt-[200px] ">
-        <div class="box-type  w-6/12">
+        <div class="box-type  w-6/12 "  data-aos="fade-right" >
           <h2 class="font-syne  text-white w-[450px] text-justify h-[250px] flex justify-start items-end text-[56px] font-bold relative">
             <svg
             class="absolute right-[25px] top-[-150px]"
@@ -190,10 +191,14 @@
           <p class="text-textColor-grays-1100 w-[500px]">Aaronn is a New York-based visual designer focusing on branding and visual identity. Her portfolio showcases her wide range of work, spanning books, posters and web design.</p><br><br><br><br>
           <a class="rounded-rounded w-16 bg-backgroundColor-maincolor-100 px-[50px] py-[20px] font-semibold text-white" href="#">Discover More About Me</a>
         </div>
-        <div class="box-image  flex justify-end w-6/12">
+        <div class="box-image  flex justify-end w-6/12 " data-aos="fade-left" >
           <img  src="/image/Rectangle 361 (1).jpg" alt="">
         </div>
       </section>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
